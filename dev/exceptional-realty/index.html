@@ -1,0 +1,49 @@
+<!-- In sublime text you can simply write "!" then press tab, and the whole document format will autocomplete. super useful.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- This is how you make a comment. I can see it in the code but it wont appear in the browser. These comments can be...
+   multi-line if you want -->
+<!-- the head section is where you put info for the browser and search engines. i.e metadata, links to other files that the browser needs like style sheets, and a title for the page. not seen by site visitors -->
+  <meta charset="UTF-8">
+  <title>Exceptional Realty Group - Luxury homes - About </title>
+  <!-- the title shows up at the top of the browser tab. and is very important for search engines. good to use descriptive terms for this reason -->
+  </head>
+  <body>
+<!-- the body is the entire viewable area of the webpage. text, images, links and media - anything the visitor can see, appears in the body -->
+<!-- all of this needs to be properly formatted using elements like paragraphs and headers. otherwise the browser will ignore things like line spacing. -->
+<!-- be sure to close your tags (if they have a closing tag, or they'll get nested) -->
+<!-- USE the tab key to autocomplete tags!!! just write the name of the tag then press tab -->
+  <h1> Exceptional </h1>
+  <h2> Realty Group </h2>
+
+<!-- links to link all of the pages together -->
+<!-- a stands for "anchor" or you can think of it as "action" too -->
+<!-- link goes in quotes and clickable text goes inside the tag -->
+<!-- href stands for hypertext reference, i.e. you're linking to a hypertext markup language page -->
+<!-- the links below are all internal except the last one, which is why they use the relative path as opposed to the absolute path -->
+<a href="index.html">About</a>
+<a href="new-properties.html">New Properties</a>
+<a href="real-estate-listings.html">Listings</a>
+<a href="market-report.html">Market Report</a>
+<a href="contact.html">Contact</a>
+<a href="http://hud.gov" target = "_blank">H.U.D.</a>
+<!-- the target = "_blank" is used to open a new tab  -->
+
+  <img src="images/intro-pic.jpg" alt="Beautiful living room" title="Welcome to Exceptional Realty Group" >
+<!--
+foldername/ = go inside the folder
+filename = use a file in the current directory we are in
+../ = leave the current folder and go up a level to the next folder. you can use this multiple times to get where you need to go. always relative to the file you're currently on
+-->
+<!-- alt="" - alt text is for screen readers and search engines. search engines can't see images but they can see the alt text.  -->
+<!-- title="" sets a caption for when people hover their mouse -->
+  <!-- for images make damn sure to put exactly the right location. case sensitivity is a thing.  -->
+<!-- h1 is the largest of the headings and most important for search engines. we go all the way down to h6-->
+    <p> Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br> quis nostrud exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<!-- you can get the lorem ipsum autofill example text by simply writing lorem and hitting tab -->
+<!-- ive used the br tags here to create line breaks  -->
+  </body>
+
+</html>
